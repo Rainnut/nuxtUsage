@@ -1,3 +1,4 @@
+// 文件夹必须命名store，约定好的
 const cookieparser = process.server ? require('cookieparser') : undefined
 
 // 在服务端渲染期间运行都是同一个实例

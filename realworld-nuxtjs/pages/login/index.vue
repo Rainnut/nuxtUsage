@@ -47,6 +47,7 @@
 import { login, register } from '@/api/user'
 
 // 仅在客户端加载 js-cookie 包
+// process.client 由 nuxt 特别提供
 const Cookie = process.client ? require('js-cookie') : undefined
 
 export default {
